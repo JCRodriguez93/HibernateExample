@@ -63,6 +63,7 @@ public class UserView {
                     }
                     default: { //opción fuera del case
                         System.out.println("opcion incorrecta.\nDebes introducir una opción entre 1 y 5.");
+                        break;
                     }
                 }
             } catch (NumberFormatException e) {
