@@ -3,9 +3,9 @@
  <hibernate-configuration>
    <session-factory>
      <property name="connection.driver_class">org.postgresql.Driver</property>
-    <property name="connection.url">jdbc:postgresql://localhost:5432/empleados</property>
-     <property name="connection.username">root</property>
-     <property name="connection.password"> </property>
+    <property name="connection.url">jdbc:postgresql://localhost:5432/test</property>
+     <property name="connection.username">userdb</property>
+     <property name="connection.password">passdb</property>
     <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
     <property name="hibernate.show_sql">true</property>
 

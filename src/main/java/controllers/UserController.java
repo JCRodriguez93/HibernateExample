@@ -20,7 +20,7 @@ public class UserController {
 	public String createUser(String name, String surname, String direction){
 
 		SessionFactory sessionFactory = new Configuration()
-				.configure("src/hibernate.cfg.xml")
+				.configure("hibernate.cfg.xml")
 				.addAnnotatedClass(User.class)
 				.buildSessionFactory();
 

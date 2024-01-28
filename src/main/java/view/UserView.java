@@ -57,9 +57,12 @@ public class UserView {
                         System.out.println(str);
                         break;
                     }
-                    case 5: { //na el programa
+                    case 5: { //finaliza el programa
                         System.out.println("Conexión cerrada");
                         break;
+                    }
+                    default: { //opción fuera del case
+                        System.out.println("opcion incorrecta.\nDebes introducir una opción entre 1 y 5.");
                     }
                 }
             } catch (NumberFormatException e) {
@@ -68,5 +71,4 @@ public class UserView {
 
         }
     }
-
 }
